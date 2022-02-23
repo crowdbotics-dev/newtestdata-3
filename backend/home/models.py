@@ -20,3 +20,9 @@ class Testcheck(models.Model):
     "Generated Model"
     testapps = models.URLField()
     oktestnew = models.TextField()
+
+
+class Test(models.Model):
+    "Generated Model"
+    eee = models.URLField()
+    ee = models.TimeField()
