@@ -1,5 +1,5 @@
 from django.contrib.auth import get_user_model
-from home.models import Testingsaap
+from home.models import Testingsaap, Testnews
 from django.http import HttpRequest
 from django.utils.translation import ugettext_lazy as _
 from allauth.account import app_settings as allauth_settings
@@ -79,4 +79,10 @@ class PasswordSerializer(PasswordResetSerializer):
 class TestingsaapSerializer(serializers.ModelSerializer):
     class Meta:
         model = Testingsaap
+        fields = "__all__"
+
+
+class TestnewsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Testnews
         fields = "__all__"

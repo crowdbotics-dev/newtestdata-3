@@ -8,3 +8,9 @@ class Testingsaap(models.Model):
     checktest = models.SlugField(
         max_length=50,
     )
+
+
+class Testnews(models.Model):
+    "Generated Model"
+    yestest = models.URLField()
+    oktest = models.TextField()
