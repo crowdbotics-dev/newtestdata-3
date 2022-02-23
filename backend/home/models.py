@@ -14,3 +14,9 @@ class Testnews(models.Model):
     "Generated Model"
     yestest = models.URLField()
     oktest = models.TextField()
+
+
+class Testcheck(models.Model):
+    "Generated Model"
+    testapps = models.URLField()
+    oktestnew = models.TextField()
