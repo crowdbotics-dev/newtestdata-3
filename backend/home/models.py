@@ -26,3 +26,10 @@ class Test(models.Model):
     "Generated Model"
     eee = models.URLField()
     ee = models.TimeField()
+
+
+class Ytest(models.Model):
+    "Generated Model"
+    uuuut = models.URLField()
+    ttty = models.TimeField()
+    yttyy = models.UUIDField()
